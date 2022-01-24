@@ -14,7 +14,7 @@ function App() {
             Coded by Alessandra Bammann. Source at{" "}
             <a href="https://github.com/ABammann/dictionary">GitHub</a>, hosted
             at{" "}
-            <a href="https://stupefied-lamarr-924c26.netlify.app/">Netifly.</a>
+            <a href="https://stupefied-lamarr-924c26.netlify.app/">Netlify.</a>
           </small>
         </footer>
       </div>
