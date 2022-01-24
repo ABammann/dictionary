@@ -1,5 +1,5 @@
 import "./App.css";
-import Dictionary from "./Dictionary.js";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -14,7 +14,12 @@ function App() {
             Coded by Alessandra Bammann. Source at{" "}
             <a href="https://github.com/ABammann/dictionary">GitHub</a>, hosted
             at{" "}
-            <a href="https://stupefied-lamarr-924c26.netlify.app/">Netlify.</a>
+            <a href="https://stupefied-lamarr-924c26.netlify.app/">Netlify.</a>{" "}
+            <br />
+            API kindly offered by{" "}
+            <a href="https://github.com/meetDeveloper/freeDictionaryAPI">
+              meetDeveloper
+            </a>
           </small>
         </footer>
       </div>
