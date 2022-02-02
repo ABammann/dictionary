@@ -8,7 +8,6 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [photos, setPhotos] = useState(null);
-  let [placeholder, setPlaceholder] = useState("Type a word");
 
   function handleResponse(response) {
     setResults(response.data[0]);
@@ -43,7 +42,7 @@ export default function Dictionary() {
           <input
             type="Search"
             onChange={handleKeywordChange}
-            placeholder={placeholder}
+            placeholder="Type a word"
           />
         </form>
       </section>
