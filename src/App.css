@@ -3,17 +3,18 @@ body {
 }
 
 a {
-  color: rgb(90, 95, 95);
+  color: #8ea6b4;
 }
 
 .App-header,
 .App-footer {
   color: white;
   text-align: center;
+  font-family: fantasy;
 }
 
 .App-header {
   font-size: 60px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
 }
